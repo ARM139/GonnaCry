@@ -3,7 +3,7 @@ services:
   app:
     image: python:3.9-slim-buster
   server:
-    build: ./server
+    build: ./src/Server
     container_name: ransom-server
     hostname: server
     ports:
